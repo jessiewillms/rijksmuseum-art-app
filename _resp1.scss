@@ -1,0 +1,54 @@
+@media (max-width: 320px) {
+    html {
+        background: red;
+    }
+    #wrap {
+        /*max-width: 320px;*/
+        border: 5px solid yellow;
+    }
+    nav {
+        max-width: 320px;
+        left: 0;
+    }
+    h1 {
+        font-size: 4em;
+    }
+}
+/*@media (min-width: 321px) and (max-width: 374px) {
+    html {
+        background: green;
+    }
+    #wrap {
+        max-width: 321px;
+        border: 1px solid white;
+    }
+}
+@media (min-width: 375px) and (max-width: 413px) {
+    html {
+        background: hotpink;
+    }
+
+    #wrap {
+        max-width: 375px;
+        border: 1px solid white;
+    }
+}
+@media (min-width: 414px) and (max-width: 539px) {
+    html {
+        background: lightblue;
+    }
+    #wrap {
+        max-width: 414px;
+        border: 1px solid white;
+    }
+}
+@media (min-width: 540px) {
+    html {
+        background: grey;
+    }
+    #wrap {
+        max-width: 540px;
+        border: 1px solid white;
+    }
+}
+*/

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rijks museum API project</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="wrap">
+  <nav class="clearfix">
+    <li><a href="https://twitter.com/jessiewillms">Made by Jessie</a></li>
+  </nav>
+      <header class="clearfix overlay">
+          <h1><span class="bk">Rijks</span><br><span class="bk">museum</span><br>art<br>app</h1>
+          <div class="pick">
+          <p class="pick-t">Pick a colour:</p>
+            <a class="color-choice" href="#" data-colname="red" data-colour="%2fa377c"><span class="red"> red</span></a>  
+            <a class="color-choice" href="#" data-colname="yellow" data-colour="%2f5f32f"><span class="yellow"> yellow</span></a> <a class="color-choice" href="#" data-colname="blue" data-colour="%26cd3e2"><span class="blue">blue</span></a>
+          </div>
+      </header>
+
+      <main class="clearfix"> 
+       <div id="the-title">
+        <h3 class="updateTitle">Here's your art with the color <span class="the-color"></span></h3>
+       </div>
+       <!-- container for api-generated content -->
+       <div class="container" id="artwork">
+      </div>  
+    </main>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+
+/*wrapper for each group - img, title, artist name*/
+.wrapper {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    position: relative;
+    z-index: 79;
+
+    img {
+        z-index: 95;
+        border-bottom: 3px solid $blue;
+        margin-bottom: 15px;
+    }
+    &:after {
+    content: "";
+    width: 86%;
+    height: 45%;
+    left: -15px;
+    top: -19px;
+    position: absolute;
+    z-index: -5;
+    }
+}
+.wrapper.red:after {
+    background: $red;
+}
+.wrapper.yellow:after {
+    background: $yellow;
+}
+.wrapper.blue:after {
+    background: $blue;
+}
+/*main content area*/
+main {
+    margin: 0 auto;
+    padding-top: 5%;
+    max-width: 75%;
+    color: #fff;
+
+    h3.updateTitle {
+        color: $dark;
+        font-size: 2em;
+        display: inline-block;
+        margin-bottom: 5%;
+        padding: 0 5px;
+        box-shadow: inset 0 -15px 0 #f2f2f2;
+    }
+}
+/*the container for all art groups*/
+.container {}

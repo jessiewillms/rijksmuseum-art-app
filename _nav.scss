@@ -1,0 +1,28 @@
+/*nav*/
+nav {
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    width: 100%;
+    z-index: 99;
+    background: #000;
+    
+    li {
+        top: -16px;
+        right: 5%;
+        float: right;
+        margin: 5px 25px;
+        padding: 5px;
+        width: 120px;
+        list-style-type: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: .65em;
+        a {
+            color: $white;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+}
